@@ -1,0 +1,63 @@
+/* ===== Базові стилі (шрифти + колір) ===== */
+body {
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/* ===== Блок logos_container (Box Model) ===== */
+#logos_container {
+  display: block;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 7.5px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+}
+
+/* Контейнер */
+#logos_container .container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Рядок з логотипами */
+#logos_container .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  box-sizing: border-box;
+}
+
+/* Колонки */
+#logos_container .col {
+  width: 33.333%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Зображення логотипів */
+#logos_container .logo-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  #logos_container .col {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
