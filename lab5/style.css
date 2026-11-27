@@ -8,7 +8,6 @@ body {
   background-color: #ffffff;
 }
 
-/* ===== Блок logos_container (Box Model) ===== */
 #logos_container {
   display: block;
   width: 100%;
